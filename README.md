@@ -218,6 +218,7 @@ The **Topology** tab in Zenmap was opened, the **Legend** was enabled, and the t
 ### Evidence
 
 ![Zenmap Task 7 - Network Topology](zenmap-task7-topology.png)
+📄 **[Download the saved topology PDF](zenmap-topology.pdf)**
 
 **Note:** In a Ping scan, Zenmap only knows which hosts are alive — it does not know the route/path between them (that requires traceroute). As a result, the topology may show hosts as separate/isolated nodes rather than a connected map.
 
@@ -287,13 +288,15 @@ No exploitation, credential attacks, or unauthorised access were performed.
 
 ```text
 .
+.
 ├── README.md
 ├── theharvester-task1-baidu.png
 ├── theharvester-task2-all.png
 ├── zenmap-task2-ipconfig.png
 ├── zenmap-task3-ping-scan.png
 ├── zenmap-task6-ipconfig-all.png
-└── zenmap-task7-topology.png
+├── zenmap-task7-topology.png
+└── zenmap-topology.pdf
 ```
 
 ```
