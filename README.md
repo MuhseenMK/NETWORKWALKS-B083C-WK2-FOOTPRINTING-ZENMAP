@@ -144,10 +144,10 @@ ipconfig
 
 | Information        | Value              |
 | ------------------ | ------------------ |
-| Local IPv4 Address | `192.168.149.216`  |
-| Subnet Mask        | `255.255.255.0`    |
-| LAN Subnet         | `192.168.149.0/24` |
-| Default Gateway    | `192.168.149.202`  |
+| Local IPv4 Address | `216`  |
+| Subnet Mask        | `250`    |
+| LAN Subnet         | `0/24` |
+| Default Gateway    | `202`  |
 
 ### Evidence
 
@@ -160,7 +160,7 @@ ipconfig
 The following Ping Scan was executed via Zenmap:
 
 ```text
-nmap -sn 192.168.149.0/24
+0/24
 ```
 
 ### Result
@@ -182,9 +182,9 @@ nmap -sn 192.168.149.0/24
 ## Task 5 — IP Addresses of the Live Hosts
 
 ```text
-192.168.149.202
-192.168.149.254
-192.168.149.216
+202
+254
+216
 ```
 
 ---
@@ -192,9 +192,9 @@ nmap -sn 192.168.149.0/24
 ## Task 6 — MAC Addresses of the Live Hosts
 
 ```text
-192.168.149.202  →  C2:04:DE:CD:56:21
-192.168.149.254  →  4E:91:17:03:01:04
-192.168.149.216  →  B8:08:CF:DC:D5:98
+202  →  C2:04:DE:CD:56:21
+254  →  4E:91:17:03:01:04
+19149.216  →  B8:08:CF:DC:D5:98
 ```
 
 `192.168.149.216` is my own PC.
